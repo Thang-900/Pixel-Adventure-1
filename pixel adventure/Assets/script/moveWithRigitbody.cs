@@ -22,5 +22,6 @@ public class moveWithRigitbody : MonoBehaviour
         Vector2 addVec = new Vector2(x * speed * Time.deltaTime, y * speed * Time.deltaTime);
         player.MovePosition(player.position + addVec);
         //player.velocity += addVec;
+        
     }
 }
